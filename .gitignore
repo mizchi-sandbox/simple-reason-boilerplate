@@ -24,6 +24,7 @@ lib/bs
 .vscode
 .merlin
 src/**/*.bs.js
+__tests__/**/*.bs.js
 lib
 node_modules
 public

@@ -1,1 +1,1 @@
-let f = 1;
+let myfn = 1;

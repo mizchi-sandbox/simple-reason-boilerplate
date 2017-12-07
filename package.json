@@ -1,19 +1,21 @@
 {
-  "name": "simple-reason",
+  "name": "simple-reason-boilerplate",
   "version": "0.1.0",
   "scripts": {
-    "watch": "run-p watch:reason start:dev",
+    "watch": "yarn clean && run-p watch:reason start:dev",
     "start:dev": "webpack-dev-server",
     "clean": "bsb -clean-world",
     "build:reason": "bsb -make-world",
-    "watch:reason": "bsb -make-world -w"
+    "watch:reason": "bsb -make-world -w",
+    "test": "jest"
   },
-  "keywords": ["BuckleScript"],
-  "author": "",
+  "author": "mizchi",
   "license": "MIT",
   "devDependencies": {
+    "bs-jest": "^0.2.0",
     "bs-platform": "^2.1.0",
     "html-webpack-plugin": "^2.30.1",
+    "jest": "^21.2.1",
     "npm-run-all": "^4.1.2",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.9.7"
