@@ -1,16 +1,25 @@
+# Simple reason & react boilerplate
 
+My Reason Stack
 
-# Build
-```
-npm run build
-```
+* reason
+* react-reason
+* webpack
+* jest(bs-jest)
 
-# Watch
+## Develop
 
-```
+```sh
+yarn install
 npm run watch
 ```
 
+## Deploy
 
-# Editor
-If you use `vscode`, Press `Windows + Shift + B` it will build automatically
+```
+yarn deploy
+```
+
+## LICENSE
+
+MIT

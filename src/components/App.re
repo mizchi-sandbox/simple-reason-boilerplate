@@ -1,4 +1,4 @@
-let component = ReasonReact.statelessComponent("Page");
+let component = ReasonReact.statelessComponent("App");
 
 let handleClick = (_event, _self) => Js.log("clicked!");
 
