@@ -3,7 +3,7 @@ open Jest;
 open ReactHelper;
 
 describe(
-  "Page",
+  "App",
   () =>
     Expect.(
       test(
