@@ -7,7 +7,7 @@
     "clean": "bsb -clean-world",
     "build:reason": "bsb -make-world",
     "watch:reason": "bsb -make-world -w",
-    "test": "jest"
+    "test": "yarn build:reason && jest"
   },
   "author": "mizchi",
   "license": "MIT",
