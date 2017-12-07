@@ -1,15 +1,13 @@
 {
   "name": "simple-reason",
   "version": "0.1.0",
-  "sources": [
-    "src"
-  ],
+  "sources": ["src"],
   "package-specs": {
     "module": "commonjs",
     "in-source": true
   },
   "suffix": ".bs.js",
-  "bs-dependencies": [
-      // add your bs-dependencies here 
-  ]
+  "bsc-flags": ["-bs-no-version-header", "-bs-super-errors"],
+  "reason": { "react-jsx": 2 },
+  "bs-dependencies": ["reason-react", "bs-director"]
 }
