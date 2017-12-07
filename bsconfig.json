@@ -7,6 +7,7 @@
     "in-source": true
   },
   "suffix": ".bs.js",
+  "refmt": 3,
   "bsc-flags": ["-bs-no-version-header", "-bs-super-errors"],
   "reason": { "react-jsx": 2 },
   "bs-dependencies": ["reason-react", "bs-director"]

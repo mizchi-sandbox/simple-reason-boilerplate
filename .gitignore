@@ -26,3 +26,5 @@ lib/bs
 src/**/*.bs.js
 lib
 node_modules
+public
+.bsb.lock
