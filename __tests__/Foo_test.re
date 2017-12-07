@@ -2,4 +2,7 @@ open Jest;
 
 open Foo;
 
-describe("Expect", () => Expect.(test("toBe", () => expect(myfn) |> toBe(1))));
+describe(
+  "Foo",
+  () => Expect.(test("myfn returns 1", () => expect(myfn) |> toBe(1)))
+);

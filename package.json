@@ -2,13 +2,14 @@
   "name": "simple-reason-boilerplate",
   "version": "0.1.0",
   "scripts": {
+    "build": "yarn clean && yarn build:reason && yarn webpack",
     "watch": "yarn clean && run-p watch:reason start:dev",
     "start:dev": "webpack-dev-server",
     "clean": "bsb -clean-world",
     "build:reason": "bsb -make-world",
     "watch:reason": "bsb -make-world -w",
     "test": "yarn build:reason && jest",
-    "deploy": "gh-pages -d public"
+    "deploy": "yarn build && gh-pages -d public"
   },
   "author": "mizchi",
   "license": "MIT",

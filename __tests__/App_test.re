@@ -10,7 +10,7 @@ describe(
         "render",
         () =>
           expect(renderToStaticMarkup(<App message="hello" />))
-          |> toBe("<div>hello</div>")
+          |> toMatchSnapshot
       )
     )
 );
